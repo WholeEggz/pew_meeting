@@ -8,6 +8,12 @@
   "author": "Rafal <rafal.korzeniowski@gmail.com>",
   "private": true,
   "scripts": {
+    "build": "quasar build",
+    "build-ios-pwa": "quasar build -m pwa -c",
+    "build-mat-pwa": "quasar build -m pwa -c",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
+    "lint": "eslint --ext .js,.vue src",
+    "start": "node server.js",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
