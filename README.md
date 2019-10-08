@@ -1,4 +1,4 @@
-# Quasar App (pwa_meeting)
+# Quasar App (pew_meeting)
 
 A Quasar Framework app
 
