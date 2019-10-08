@@ -9,10 +9,8 @@
   "private": true,
   "scripts": {
     "build": "quasar build",
-    "heroku-postbuild": "yarn && yarn build",
-    "lint": "eslint --ext .js,.vue src",
     "start": "node server.js",
-    "test": "echo \"No test specified\" && exit 0"
+    "heroku-postbuild": "yarn && yarn build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
