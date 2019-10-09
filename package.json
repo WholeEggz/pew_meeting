@@ -9,7 +9,6 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "yarn && yarn build",
     "dev": "quasar dev",
     "build": "quasar build -m pwa",
     "build:pwa": "quasar build -m pwa"
