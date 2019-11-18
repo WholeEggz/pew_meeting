@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.31e1331072691b0109a0f67dfc396531.js"
+  "precache-manifest.22860ec8fb878d6b4c682f3bf635acbe.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pew_meeting"});
