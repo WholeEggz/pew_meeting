@@ -18,6 +18,25 @@
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
+    
+    <q-footer elevated>
+      <q-toolbar>
+        <q-btn
+          flat
+          dense
+          round
+          @click="leftDrawerOpen = !leftDrawerOpen"
+          icon="menu"
+          aria-label="Menu"
+        />
+
+        <q-toolbar-title>
+          Quasar App
+        </q-toolbar-title>
+
+        <div>Quasar v{{ $q.version }}</div>
+      </q-toolbar>
+    </q-footer>
 
     <q-drawer
       v-model="leftDrawerOpen"
